@@ -19,10 +19,10 @@ nochange_array
 end
 
 def map_to_double(source_array)
-  
-  double_array = []i = 0 
+  double_array = []
+  i = 0 
   while i < source_array.count do
-    double_array = (source_array * 2)
+    double_array = (source_array[i] * 2)
     i += 1
   end
 double_array
