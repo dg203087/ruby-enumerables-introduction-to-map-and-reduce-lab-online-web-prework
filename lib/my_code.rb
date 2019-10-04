@@ -51,17 +51,17 @@ end
 def reduce_to_all_true(source_array)
   i = 0 
   while i < source_array.count do
-    
+    return false if (#condition is falsy value)
     i += 1
   end
-total
+return true 
 end
 
 def reduce_to_any_true(source_array)
   i = 0 
   while i < source_array.count do
-    total += source_array[i]
+    return true if (#condition is truthy value)
     i += 1
   end
-total
+return false
 end
