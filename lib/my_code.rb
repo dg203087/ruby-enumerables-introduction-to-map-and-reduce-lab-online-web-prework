@@ -9,7 +9,13 @@ negative_array
 end
 
 def map_to_no_change(source_array)
-  dune
+  nochange_array = []
+  i = 0
+  while i < source_array.count do
+    negative_array.push(source_array[i] * -1)
+    i += 1
+  end
+nochange_array
 end
 
 def map_to_double(source_array)
