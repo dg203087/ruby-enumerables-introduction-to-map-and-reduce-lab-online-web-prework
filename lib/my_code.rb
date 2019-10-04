@@ -1,7 +1,7 @@
 def map_to_negativized(source_array)
   negative_array = []
   i = 0
-  while i < source_array.size do
+  while i < source_array.count do
     negative_array.push(source_array[i] * -1)
     i += 1
   end
