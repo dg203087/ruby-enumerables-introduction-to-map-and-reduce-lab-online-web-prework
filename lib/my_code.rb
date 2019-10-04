@@ -57,3 +57,11 @@ def reduce_to_all_true(source_array)
 return true 
 end
 
+def reduce_to_any_true(source_array)
+  i = 0 
+  while i < source_array.count do
+    return true if (source_array[i] = true)
+    i += 1
+  end
+return false
+end
